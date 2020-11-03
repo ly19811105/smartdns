@@ -6,8 +6,8 @@ mkdir -p /tmp/smartdns
 curl -L -o "/tmp/smartdns/smartdns.tar.gz" ${DOWNLOAD_LINK}
 cd /tmp/smartdns/
 tar zxf /tmp/smartdns/smartdns.tar.gz
-chmod +x ./install
-./install -i
+chmod +x /tmp/smartdns/smartdns/install
+sh /tmp/smartdns/smartdns/install -i
 systemctl stop smartdns
 curl -L -o "/etc/smartdns/smartdns.conf" ${CONFIG_LINK}
 systemctl enable smartdns
