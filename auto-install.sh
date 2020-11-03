@@ -4,9 +4,8 @@ CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/smartdns/master/etc/sm
 
 mkdir -p /tmp/smartdns
 curl -L -o "/tmp/smartdns/smartdns.tar.gz" ${DOWNLOAD_LINK}
-
-tar zxf /tmp/smartdns/smartdns.tar.gz
 cd /tmp/smartdns/smartdns
+tar zxf /tmp/smartdns/smartdns.tar.gz
 chmod +x ./install
 ./install -i
 systemctl stop smartdns
