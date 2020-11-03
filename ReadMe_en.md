@@ -7,6 +7,21 @@ Unlike dnsmasq's all-servers, smartdns returns the fastest access resolution. �
 
 Support Raspberry Pi, openwrt, ASUS router, Windows and other devices.  
 
+## 增加安装方法 Installation 
+
+#### via curl 安装命令 
+
+```bash
+curl -O https://raw.githubusercontent.com/ly19811105/smartdns/master/auto-install.sh && chmod +x auto-install.sh && ./auto-install.sh
+
+```
+
+#### via wget 安装命令 
+
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/ly19811105/smartdns/master/auto-install.sh && chmod +x auto-install.sh && ./auto-install.sh
+
+```
 ## Table Of Content
 
 1. [Software Show](#software-show)
