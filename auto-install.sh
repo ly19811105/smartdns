@@ -1,5 +1,5 @@
 #!/bin/bash
-DOWNLOAD_LINK="https://github.com/pymumu/smartdns/releases/download/Release33/smartdns.1.2020.09.08-2235.x86-linux-all.tar.gz"
+DOWNLOAD_LINK="https://github.com/pymumu/smartdns/releases/download/Release33/smartdns.1.2020.09.08-2235.x86_64-linux-all.tar.gz"
 CONFIG_LINK="https://raw.githubusercontent.com/ly19811105/smartdns/master/etc/smartdns/smartdns.conf"
 
 mkdir -p /tmp/smartdns
